@@ -2,6 +2,9 @@ import React from 'react'
 import { Button, Container } from 'react-bootstrap';
 import BannerImg from './assets/images/restauranfood.svg';
 function Banner() {
+    const LinkBooking = () =>{
+        window.location.href ='/booking'
+    }
     return (
         <div className='banner-wrap'>
             <Container>
@@ -12,9 +15,9 @@ function Banner() {
                         <p className='subtext'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's
                             standard dummy text ever since </p>
-                        <Button variant="warning" className='mt-3'>Reserve a Table</Button>
+                        <Button variant="warning" className='mt-3' onClick={LinkBooking}>Reserve a Table</Button>
                     </div>
-                    <div className='col-md-5'>
+                    <div className='col-md-5 d-none d-md-none d-lg-block'>
                         <img src={BannerImg} className='img-fluid imgRight' alt="banner image" />
                     </div>
                 </div>

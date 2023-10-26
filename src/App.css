@@ -14,6 +14,7 @@
   padding: 0px;
   margin: 0px;
 }
+.h-100{height: 100vh;}
 .product-wrap{padding-top: 130px;}
 .product-wrap .heading, .about-wrap .heading{font-size: 47px;}
 .product-wrap img{width:100%; height: 100%;}
@@ -66,3 +67,12 @@ footer{
 footer a{text-decoration: none; color:#333; font-size: 14px; transition: all ease 0.3s;}
 footer a:hover{color:#000; font-size: 14px; transition: all ease 0.3s;}
 footer i{font-size: 30px;}
+@media screen and (max-width: 992px){
+  .product-wrap{padding-top: 15px;}
+  .product-wrap .heading, .about-wrap .heading {
+    font-size: 41px;
+  }
+  .banner-wrap .subtext{
+    padding-right: 5% !important;
+  }
+}

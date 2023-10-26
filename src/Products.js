@@ -8,12 +8,12 @@ function Products() {
         <>
             <div className='product-wrap'>
                 <Container>
-                    <div className='d-flex justify-content-between align-items-center pb-3'>
+                    <div className='d-flex justify-content-between align-items-center pb-3 flex-wrap'>
                         <div><h2 className='heading'>This weeks Special</h2></div>
                         <div> <Button variant="warning" className='mt-3'>Online Menu</Button></div>
                     </div>
                     <div className='row mb-4 mb-md-4 mb-lg-5'>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mb-3'>
                             <div className='wrapImg'>
                                 <img src={ProImg1} className='img-fluid' alt="food" />
                             </div>
@@ -28,7 +28,7 @@ function Products() {
                                     <a href=''>Order a Delivery</a>
                             </div>
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mb-3'>
                             <div className='wrapImg'><img src={ProImg2} alt="food image" className='img-fluid' /></div>
                             <div className='bottomWrapPro'>
                                 <div className='d-flex justify-content-between align-items-center'>
@@ -41,7 +41,7 @@ function Products() {
                                     <a href="">Order a Delivery</a>
                             </div>
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mb-3'>
                         <div className='wrapImg'> <img src={ProImg3} alt="food image" className='img-fluid' /></div>
                         <div className='bottomWrapPro'>
                                 <div className='d-flex justify-content-between align-items-center'>

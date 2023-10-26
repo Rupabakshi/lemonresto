@@ -8,9 +8,9 @@ function Testimonials() {
         <>
             <div className='testimonial-wrap'>
                 <Container>
-                    <h2 className='heading text-center text-white'>Testimonials</h2>
+                    <h2 className='heading text-center text-white mb-4'>Testimonials</h2>
                     <div className='row'>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mb-3'>
                             <div className='testimonial-wrap-single'>
                                 <div className='d-flex justify-content-center align-items-top flex-column'>
                                     <div className='d-flex justify-content-center'><img alt="client image" src={TestiImg1} className='mb-3 text-center' /></div>
@@ -27,7 +27,7 @@ function Testimonials() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mb-3'>
                             <div className='testimonial-wrap-single'>
                                 <div className='d-flex justify-content-center align-items-top flex-column'>
                                     <div className='d-flex justify-content-center'><img alt="client image" src={TestiImg2} className='mb-3 text-center' /></div>
@@ -44,7 +44,7 @@ function Testimonials() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 mb-3">
                             <div className='testimonial-wrap-single'>
                                 <div className='d-flex justify-content-center align-items-top flex-column'>
                                     <div className='d-flex justify-content-center'><img alt="client image" src={TestiImg3} className='mb-3 text-center' /></div>

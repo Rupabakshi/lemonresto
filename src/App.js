@@ -1,21 +1,20 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import Header from './Header.js';
-import Banner from './Banner.js';
-import Products from './Products.js';
-import Testimonials from './Testimonials.js';
-import About from './About.js';
-import Footer from './Footer.js';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import BookingForm from './BookingForm.js';
+import Home from './Home.js';
+import ConfirmedBooking from './ConfirmedBooking';
 function App() {
   return (
     <>
       <div className="App">
-        <Header />
-        <Banner />
-        <Products />
-        <Testimonials />
-        <About />
-        <Footer />
+        <BrowserRouter>
+        <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route exact path="/booking" element={<BookingForm />}></Route>
+        <Route exact path="/confirmbooking" element={<ConfirmedBooking />}></Route>
+        </Routes>
+        </BrowserRouter>
       </div>
     </>
   );
